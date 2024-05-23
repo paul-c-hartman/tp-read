@@ -91,6 +91,9 @@ def usage():
   parser.print_help()
   exit()
 
+def int_to_hexstr(num):
+  return hex(num)[2:].rjust(5, "0").upper()
+
 def find_all_clickerfiles(cwd, glob_string="*.tpzx"):
   return ["./" + os.path.basename(filename) for filename in glob.glob(glob.escape(cwd) + "/" + glob_string)]
 
@@ -198,6 +201,9 @@ for tpzx_file in tpzx_files:
         results[device_id] += 1
       else:
         results[device_id] = 1
+      # Fill in entries not in roster
+      if device_id not in names.keys():
+        names[device_id] = (int_to_hexstr(device_id), "")
   clicker_results[tpzx_file] = results
 
 # ======
