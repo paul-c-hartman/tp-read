@@ -1,21 +1,20 @@
 # TP-read
-Short script to parse and read TurningPoint 5 clicker records. Assumes `python` points to Python 3.
+Package to parse and read TurningPoint 5 clicker records. Can output in ~~multiple formats~~ CSV.
 
 ## Usage
 1. Download and unzip or `git clone` this repository
 2. `cd tp-read`
-3. Move or add `bin/` to your PATH (optional)
-4. In your shell of choice: `./bin/tp_read standard -h` or `./bin/tp_read interactive`
-<!-- 5. Alternatively, if your Python 3 executable is `python3` rather than `python`: `./tp_read3 standard -h` or `./tp_read3 interactive` -->
----
-You can also run the python script directly with:
-- `/path/to/python3 ./tp_read.py standard -h` or
-- `/path/to/python3 ./tp_read interactive`
+3. `pip install .`
+4. `tp-read`
+
+Since this package is still in the planning stage, it's not yet on PyPI.
 
 ## Todo
-- [ ] Test `tp_read.sh`
-- [ ] Allow python interpreter to be supplied
-- [ ] Clean up usage
+- [x] Clean up usage
+- [ ] Convert to package
+- [ ] Write tests
+- [ ] Sync with LMS?
+- [ ] Other output formats
 
 
 ## License
