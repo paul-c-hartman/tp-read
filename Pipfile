@@ -8,6 +8,7 @@ name = "pypi"
 [dev-packages]
 ruff = "*"
 pytest = "*"
+setuptools = "*"
 
 [requires]
 python_version = "3.12"
