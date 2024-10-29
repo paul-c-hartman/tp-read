@@ -2,7 +2,7 @@
 # Basic info
 name = "tp_read"
 version = "0.0.1"
-description = "Parse and process TurningPoint 5 clicker records. Output in several formats."
+description = "Parse and process TurningPoint 5 clicker records and output in several formats."
 readme = "README.md"
 authors = [
     {name = "Paul Hartman", email = "real.paul.hartman@gmail.com"}
@@ -21,12 +21,8 @@ classifiers = [
     "Topic :: Text Processing",
 
     # Supported versions
-    # "Programming Language :: Python :: 3",
-    # "Programming Language :: Python :: 3.8",
-    # "Programming Language :: Python :: 3.9",
-    # "Programming Language :: Python :: 3.10",
-    # "Programming Language :: Python :: 3.11",
-    # "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
 ]
 
 [project.urls]
