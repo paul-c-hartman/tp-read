@@ -1,3 +1,46 @@
+[project]
+# Basic info
+name = "tp_read"
+version = "0.0.1"
+description = "Parse and process TurningPoint 5 clicker records. Output in several formats."
+readme = "README.md"
+authors = [
+    {name = "Paul Hartman", email = "real.paul.hartman@gmail.com"}
+]
+keywords = ["TurningPoint", "parse", "csv", "attendance"]
+# dependencies = []
+requires-python = ">= 3.8"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "License :: OSI Approved :: MIT License",
+
+    # Project intended for
+    "Intended Audience :: Education",
+    "Topic :: Education",
+    "Topic :: File Formats",
+    "Topic :: Text Processing",
+
+    # Supported versions
+    # "Programming Language :: Python :: 3",
+    # "Programming Language :: Python :: 3.8",
+    # "Programming Language :: Python :: 3.9",
+    # "Programming Language :: Python :: 3.10",
+    # "Programming Language :: Python :: 3.11",
+    # "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+Homepage = "https://github.com/paul-c-hartman/tp-read"
+Repository = "https://github.com/paul-c-hartman/tp-read.git"
+Issues = "https://github.com/paul-c-hartman/tp-read/issues"
+
+[project.scripts]
+# i.e. `sh tp-read` => `from tp-read import main_cli; main_cli()`
+# tp-read = "tp-read:main_cli"
+
+[project.gui-scripts]
+# tp-read-gui = "tp-read:main_gui"
+
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
