@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+src/tp_read.egg-info/PKG-INFO
+src/tp_read.egg-info/SOURCES.txt
+src/tp_read.egg-info/dependency_links.txt
+src/tp_read.egg-info/top_level.txt

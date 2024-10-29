@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e95fedd521d1ae138f540d8a0cd08a1b66145935896b5de1ffeb7283a318e92a"
+            "sha256": "370ef243eaad2f416ff6660470740e416dd75899913440655ee4497d99693080"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -92,6 +92,10 @@
             "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==75.3.0"
+        },
+        "tp-read": {
+            "editable": true,
+            "file": "."
         }
     }
 }
